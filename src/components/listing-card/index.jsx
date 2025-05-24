@@ -16,7 +16,7 @@ const ListingCard = ({
 }) => {
   return (
     <div
-      className={`bg-white rounded-lg overflow-hidden relative ${
+      className={`bg-white rounded-lg overflow-hidden relative transform transition duration-500 hover:scale-[1.02] ${
         isSponsored ? "ring-2 ring-purple-600" : "shadow-sm"
       }`}
     >
